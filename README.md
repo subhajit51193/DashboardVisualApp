@@ -8,8 +8,11 @@ Operational Dashboard Using Grafana to monitor and visualize the metrics of a Ja
 Memory Usage data
 ![App Screenshot](https://raw.githubusercontent.com/subhajit51193/DashboardVisualApp/main/JVM%20memory.JPG)
 
-CPU Usage data
+CPU Utilization
 ![App Screenshot](https://raw.githubusercontent.com/subhajit51193/DashboardVisualApp/main/CPU%20utilization.JPG)
+
+CPU Usage
+![App Screenshot](https://raw.githubusercontent.com/subhajit51193/DashboardVisualApp/main/CPU%20Usage%20details.JPG)
 
 Request Rate data
 ![App Screenshot](https://raw.githubusercontent.com/subhajit51193/DashboardVisualApp/main/RequestRate.JPG)
