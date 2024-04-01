@@ -72,18 +72,27 @@ Update prometheus.yml file with extra configurations
     - targets: ["localhost:8080"]    
 
 ```
-Run below command from same file path where yml file is located to start prometheus server(9090)
+Run below command from Command Prompt or Powershell from same file path where yml file is located to start prometheus server(9090)[Windows]
 ```
 .\prometheus.exe
+```
+Run below command from Terminal from same file path where yml file is located to start prometheus server(9090)[Mac]
+```
+./prometheus
 ```
 Now we can open the prometheus server by going to localhost:9090 and choose our metrices
 
 Now install grafana
 
-Go inside bin folder of grafana and open command prompt or powershell and type following command to run grafana server(3000)
+Go inside bin folder of grafana and open command prompt or powershell and type following command to run grafana server(3000)[Windows]
 
 ```
 .\grafana-server.exe
+```
+Go inside bin folder of grafana and open Terminal and type following command to run grafana server(3000)[Mac]
+
+```
+./grafana server
 ```
 
 Now grafana dashboard will open with default username and password - admin
